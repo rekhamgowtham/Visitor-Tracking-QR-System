@@ -1,0 +1,72 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/gowtham/.Xauthority
+/etc/X11/Xsession.d/30x11-common_xresources: line 16: has_option: command not found
+/etc/X11/Xsession.d/50x11-common_determine-startup: line 10: has_option: command not found
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+/etc/X11/Xsession.d/75dbus_dbus-launch: line 9: has_option: command not found
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+/etc/X11/Xsession.d/90x11-common_ssh-agent: line 9: has_option: command not found
+dbus-update-activation-environment: setting SHELL=/usr/bin/zsh
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting POWERSHELL_UPDATECHECK=Off
+dbus-update-activation-environment: setting LANGUAGE=en_IN:en
+dbus-update-activation-environment: setting POWERSHELL_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting DOTNET_CLI_TELEMETRY_OPTOUT=1
+dbus-update-activation-environment: setting NMAP_PRIVILEGED=
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting PWD=/home/gowtham
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting LOGNAME=gowtham
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=qt5ct
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/gowtham/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/gowtham
+dbus-update-activation-environment: setting COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+dbus-update-activation-environment: setting HOME=/home/gowtham
+dbus-update-activation-environment: setting LANG=en_IN
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=gowtham
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting QT_AUTO_SCREEN_SCALE_FACTOR=0
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting PATH=/home/gowtham/.local/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/gowtham/.dotnet/tools
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+** Message: 18:23:46.799: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 18:23:46.800: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 18:23:46.800: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 18:23:46.800: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+/usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
+gpg-agent: a gpg-agent is already running - not starting a new one
+** Message: 18:23:47.546: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfwm4:1087): xfwm4-WARNING **: 18:23:47.642: Unsupported GL renderer (llvmpipe (LLVM 21.1.8, 256 bits)).
+
+(polkit-mate-authentication-agent-1:1557): GLib-CRITICAL **: 18:23:50.888: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-mate-authentication-agent-1:1557): polkit-mate-1-WARNING **: 18:23:50.890: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+blueman-applet 18.23.53 WARNING  PluginManager:153 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 18.23.53 WARNING  PluginManager:153 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 18.23.53 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+qt.xkb.compose: failed to create compose table
+[Child 82389, MediaDecoderStateMachine #1] WARNING: Decoder=7fdb952ad500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file dom/media/MediaDecoderStateMachine.cpp:371
+[Child 82389, MediaDecoderStateMachine #1] WARNING: Decoder=7fdb952ad500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file dom/media/MediaDecoderStateMachineBase.cpp:168
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+[Child 92632, MediaDecoderStateMachine #1] WARNING: Decoder=7ff2ccc52100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file dom/media/MediaDecoderStateMachine.cpp:371
+[Child 92632, MediaDecoderStateMachine #1] WARNING: Decoder=7ff2ccc52100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file dom/media/MediaDecoderStateMachineBase.cpp:168
+qt.xkb.compose: failed to create compose table
