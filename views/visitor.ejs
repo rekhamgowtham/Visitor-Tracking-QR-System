@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Visitor Information</h1>
+
+<table border="1">
+<tr>
+<th>IP Address</th>
+<td id="ip"></td>
+</tr>
+
+<tr>
+<th>Device Info</th>
+<td id="device"></td>
+</tr>
+
+<tr>
+<th>Browser</th>
+<td id="browser"></td>
+</tr>
+
+<tr>
+<th>OS</th>
+<td id="os"></td>
+</tr>
+
+<tr>
+<th>Country</th>
+<td id="country"></td>
+</tr>
+
+<tr>
+<th>City</th>
+<td id="city"></td>
+</tr>
+
+<tr>
+<th>Access Time</th>
+<td id="time"></td>
+</tr>
+
+</table>
+
+<script>
+
+fetch("https://api.ipify.org?format=json")
+.then(response => response.json())
+.then(data => {
+
+let device = navigator.userAgent;
+let browser = navigator.appName;
+let os = navigator.platform;
+let time = new Date();
+
+document.getElementById("ip").innerHTML = data.ip;
+document.getElementById("device").innerHTML = device;
+document.getElementById("browser").innerHTML = browser;
+document.getElementById("os").innerHTML = os;
+document.getElementById("time").innerHTML = time;
+
+fetch("https://ipapi.co/json/")
+.then(response => response.json())
+.then(location => {
+
+document.getElementById("country").innerHTML =
+location.country_name;
+
+document.getElementById("city").innerHTML =
+location.city;
+
+fetch("/save", {
+method: "POST",
+headers: {
+"Content-Type":
+"application/x-www-form-urlencoded"
+},
+body: "info=" + encodeURIComponent(
+
+"IP Address: " + data.ip +
+" | Device Info: " + device +
+" | Browser: " + browser +
+" | OS: " + os +
+" | Country: " + location.country_name +
+" | City: " + location.city +
+" | Access Time: " + time
+
+)
+});
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
