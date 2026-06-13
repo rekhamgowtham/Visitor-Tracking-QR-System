@@ -5,4 +5,9 @@ visitor_log.txt
 .local/
 .mozilla/
 .npm/
+.java/
+.zsh_history
+.bashrc
+.bash_logout
+.profile
 *.zip
