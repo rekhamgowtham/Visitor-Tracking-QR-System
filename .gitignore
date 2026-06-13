@@ -1,4 +1,5 @@
 node_modules/
+visitor_log.txt
 .cache/
 .config/
 .local/
